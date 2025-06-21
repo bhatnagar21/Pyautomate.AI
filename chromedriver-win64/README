@@ -1,0 +1,15 @@
+pip install pytesseract opencv-python
+
+
+pip install selenium webdriver-manager (run web)
+
+Pip install pyautogui(run desktop)
+
+pip install pytesseract pillow
+
+
+pip freeze > requirements.txt
+
+
+voicee 
+python automation/voice_assistant.py
