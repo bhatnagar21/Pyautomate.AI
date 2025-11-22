@@ -30,9 +30,9 @@ elif menu == "Spam Detector":
     st.header("🚫 Spam Detector")
     user_input = st.text_input("✍️ Enter a message to check:")
     if user_input:
-        result = classify_text(user_input)
-        output = "Spam 🚫" if result == 1 else "Not Spam ✅"
+        output = classify_text(user_input)
         st.success(f"Result: {output}")
+
 
 # 😊 Sentiment Analyzer
 elif menu == "Sentiment Analyzer":

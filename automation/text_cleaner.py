@@ -16,7 +16,7 @@ def clean_text(text):
     return ' '.join(cleaned_words)
 
 # 📄 Example input
-raw_text = "Hello! My name is Shreya. I’m working on PyAutomate.AI."
+raw_text = "Hello! My name is Bot I’m working on PyAutomate.AI."
 
 cleaned = clean_text(raw_text)
 
