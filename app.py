@@ -34,6 +34,7 @@ elif menu == "Spam Detector":
         st.success(f"Result: {output}")
 
 
+
 # 😊 Sentiment Analyzer
 elif menu == "Sentiment Analyzer":
     st.header("😊 Sentiment Analysis")
